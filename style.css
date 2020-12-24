@@ -72,6 +72,12 @@ p {
 .logo {
   height: 70px;
 }
+
 .navbar-toggler {
   visibility: hidden;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
 }
