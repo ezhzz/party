@@ -71,3 +71,6 @@ p {
 .logo {
   height: 70px;
 }
+.navbar-toggler {
+  visibility: hidden;
+}
