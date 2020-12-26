@@ -61,7 +61,7 @@ body{
     justify-content: space-evenly;
     background-color: rgb(106, 13, 129);
 }
-.fab{
+.fab, .fas{
     font-size: 30px;
     color: white;
 }
@@ -69,6 +69,12 @@ body{
     color: rgb(153, 153, 153);
 }
 .fab:active{
+    color: rgb(122, 122, 122);
+}
+.fas:hover{
+    color: rgb(153, 153, 153);
+}
+.fas:active{
     color: rgb(122, 122, 122);
 }
 .logoimg{
@@ -116,7 +122,7 @@ a{
     font-size: 15px;
 }
 .chec{
-    width: 15px;
+    width: 13px;
     margin: 0;
 }
 .remember{
