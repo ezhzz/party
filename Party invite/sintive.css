@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sniglet', cursive;
+    font-size: 18px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#myVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background:black;
+    background-size: cover;
+    opacity: 0.6;
+}
+.box{
+    display: flex;
+    position: relative;
+    width: 128vh;
+    height: 92vh;
+    background-color: white;
+    z-index: 3;
+}
+.invite{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.invite h1{
+    font-size: 30px;
+}
+.invite p{
+    color: rgb(66, 66, 66);
+}
+.textlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+.textlogo{
+    padding-bottom: 30px;
+}
+.contact{
+    width: 90px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(106, 13, 129);
+}
+.fab{
+    font-size: 30px;
+    color: white;
+}
+.fab:hover{
+    color: rgb(153, 153, 153);
+}
+.fab:active{
+    color: rgb(122, 122, 122);
+}
+.logoimg{
+    width: 420px;
+    height: 92vh;
+    background: linear-gradient(45deg, #000000, #3f07a5), url(/image/logoim1.jpg) no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+}
+input{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: blueviolet;
+    outline: none;
+}
+button{
+    width: 250px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+}
+button:hover{
+    background-color: rgb(127, 13, 235);
+}
+button:active{
+    background-color: rgb(85, 15, 151);
+}
+label{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 15px;
+}
+.chec{
+    width: 15px;
+    margin: 0;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.ques{
+    display: flex;
+    width: 450px;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+.ques a:hover{
+    color: rgb(112, 112, 112);
+}
+.ques a:active{
+    color: rgb(59, 59, 59);
