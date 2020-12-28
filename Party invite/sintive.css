@@ -10,28 +10,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-}
-#myVideo {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    z-index: 1;
-    background:black;
-    background-size: cover;
-    opacity: 0.6;
+    background-image: url(/image/bg.png);
+    background-size: 100%;
 }
 .box{
     display: flex;
     position: relative;
     width: 128vh;
     height: 92vh;
+    box-shadow: 0px 0px 18px 7px black;
     background-color: white;
     z-index: 3;
 }
 .invite{
-    width: 450px;
+    width: 430px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -143,3 +135,9 @@ a{
 }
 .ques a:active{
     color: rgb(59, 59, 59);
+}
+@media(max-width: 2160px){
+    .{
+        
+    }
+}
