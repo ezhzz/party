@@ -23,7 +23,7 @@ body{
     z-index: 3;
 }
 .invite{
-    width: 430px;
+    width: 510px;
     height: auto;
     display: flex;
     flex-direction: column;
