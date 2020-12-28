@@ -72,7 +72,7 @@ body{
 .logoimg{
     width: 420px;
     height: 92vh;
-    background: linear-gradient(45deg, #000000, #3f07a5), url(/image/logoim1.jpg) no-repeat;
+    background: linear-gradient(45deg, #000000, #3f07a5), url(image/logoim1.jpg) no-repeat;
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
