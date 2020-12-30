@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+*{
+    font-family: 'Sniglet', cursive;
+}
+
 body {
   padding: 0px;
   margin: 0px;
@@ -16,20 +21,10 @@ a {
   color: gray;
 }
 
-@font-face {
-  font-family: 'Indie Flower';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(font.ttf);
-}
-
 h1 {
     color: white;
-    font-family: "Indie Flower"
 }
 p {
-  font-family: "Indie Flower";
   font-size: 20px;
 }
 
@@ -73,9 +68,6 @@ p {
   height: 70px;
 }
 
-.navbar-toggler {
-  visibility: hidden;
-}
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
