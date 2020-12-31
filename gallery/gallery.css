@@ -17,6 +17,7 @@ img {
 .main {
   display: flex;
   padding: 30px;
+  position: absolute;
 }
 .pic {
   margin-left: 30px;
