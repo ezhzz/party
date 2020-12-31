@@ -16,10 +16,15 @@ img {
 }
 .main {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 30px;
-  position: absolute;
 }
 .pic {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin-left: 30px;
 }
 img:hover {
