@@ -33,3 +33,23 @@ img:hover {
 h1 {
   color: white;
 }
+.navbar-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fab{
+    font-size: 30px;
+    padding: 40px;
+    color: rgb(88, 88, 88);
+}
+.fab:hover{
+    color: white;
+}
+.fab:active{
+    color: rgb(161, 161, 161);
+}
+.infotext{
+    color: rgb(88, 88, 88);
+}
