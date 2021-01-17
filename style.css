@@ -9,7 +9,31 @@ body {
   background-color: black;
   height: auto;
 }
+.preloader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(#00ff2a, #00e1ff);
+  z-index: 9999999999999;
+}
+.item-preloader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
 
+.loaded .preloader {
+  display: none;
+}
 header {
   height: 100px;
   width: 100%;
