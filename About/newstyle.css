@@ -135,3 +135,19 @@
 .infotext{
     color: rgb(88, 88, 88);
 }
+@media (max-width: 720px){
+    .carousel{
+        display: none;
+    }
+    .card-deck{
+        width: 720px;
+    }
+    .card-pos{
+        display: flex;
+        flex-direction: column;
+    }
+    .bd-timetable{
+        display: none;
+        width: 400px;
+    }
+}
