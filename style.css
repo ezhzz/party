@@ -2,7 +2,6 @@
 *{
     font-family: 'Sniglet', cursive;
 }
-
 body {
   padding: 0px;
   margin: 0px;
@@ -30,7 +29,6 @@ body {
   transition: 0.3s opacity;
   opacity: 0;
 }
-
 .loaded .preloader {
   display: none;
 }
@@ -40,11 +38,9 @@ header {
   position: fixed;
   top: 0px;
 }
-
 a {
   color: gray;
 }
-
 h1 {
     color: white;
 }
