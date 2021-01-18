@@ -17,7 +17,7 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(#00ff2a, #00e1ff);
+  background: black;
   z-index: 9999999999999;
 }
 .item-preloader{
